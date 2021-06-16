@@ -11,7 +11,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap" rel="stylesheet">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 
 
     <title>@yield('web-title')</title>
@@ -28,6 +30,24 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
 <script src="public/assets/js/script.js"></script>
 <script src="https://kit.fontawesome.com/a921b81360.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init({
+        // duration: 1200,
+    });</script>
+<script>
+    // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+            document.getElementById("navbar").style.padding = "4px 10px";
+            document.getElementById("logo").style.height = "4vh";
+        } else {
+            document.getElementById("navbar").style.padding = "8px 10px";
+            document.getElementById("logo").style.height = "5vh";
+        }
+    }
+</script>
 </body>
 
 <footer>

@@ -2,6 +2,29 @@ body {
     background-color: #EBEBEC;
 }
 
+#navbarNav a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    font-size: 14px;
+}
+
+#navbarNav {
+    position: relative;
+    justify-content: end;
+
+
+}
+
+#navbar {
+    transition: 0.4s;
+    position: relative;
+    z-index: 1;
+ }
+#logo {
+    transition: 0.5s;
+}
+
 #home {
     background: #EBEBEC;
 }
@@ -19,36 +42,7 @@ body {
     color: #DCD6D6;
     letter-spacing: 2px;
 }
-/*#### ICONS*/
-.fa-phone-alt {
-    color: red;
 
-}
-.fa-envelope {
-    color: red;
-
-}
-/*#### ICONS*/
-/*####*/
-
-#header-question {
-    margin-left: auto;
-    width: auto;
-    /*color: darkslategrey;*/
-}
-#header-contacts p{
-    font-family: "Montserrat Light",sans-serif !important;
-
-}
-#header-contacts {
-    border-radius:  0 0 4px 4px;
-    background: #EBEBEC;
-}
-
-.fa-angle-double-right {
-    color: red;
-
-}
 
 a {
     position: relative;
@@ -58,7 +52,7 @@ a {
     font-size: 16px;
     color: #EBEBEC !important;
     text-decoration: none !important;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     transition: 0.5s
 }
 
@@ -93,14 +87,13 @@ a.current:hover::after {
 
 }
 
-
 /*######*/
 
 #home-first {
-    padding-top: 20vh;
+    padding-top: 12vh;
     height: 70vh;
     background-image: url("../img/mainBanner.png");
-    /*background-size: cover;*/
+    background-attachment: fixed;
 }
 
 .home-banner-text strong{
@@ -149,7 +142,7 @@ a.current:hover::after {
 .logo {
     /*height;*/
     position: relative;
-    height: 8vh;
+    height: 5vh;
     width: auto;
     background: #252636;
     margin-right: 10vw;
@@ -160,24 +153,20 @@ a.current:hover::after {
 }
 
 .menu-item-left {
-    margin-right: 2vw;
-    margin-top: 0.5vw;
-    height: 40px;
+    margin-right: 1vw;
+    margin-top: 0.5vh;
+    /*height: 40px;*/
+
 }
-.menu-item-logo {
-    /*margin-right: 200px;*/
-    /*margin-top: 25px;*/
+.menu-item-left a{
+
 }
+
+
 
 .menu-item-last {
-    margin-top: 0.5vw;
+    margin-top: 0.5vh;
     height: 40px;
-}
-
-
-
-.index {
-    z-index: -1;
 }
 
 /*###*/

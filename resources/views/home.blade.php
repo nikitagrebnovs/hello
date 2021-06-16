@@ -32,9 +32,9 @@
 {{--    </div>--}}
 {{--    </div>--}}
 
-        <div class="container-fluid home-banner " id="home-first">
-            <div class="container home-banner">
-                <h1 class="home-banner-text">Мы <strong>не продаём</strong> крыши </h1>
+        <div class="container-fluid home-banner parallax" id="home-first">
+            <div class="container home-banner" data-aos="fade-right">
+                <h1 class="home-banner-text mt-5">Мы <strong>не продаём</strong> крыши </h1>
                 <h1 class="mt-2 mb-3 home-banner-text">Мы продаём <em>мечты</em></h1>
                 <ul>
                     <li class="mt-2"><i class="fas fa-check me-2"></i>Скидки на работы предоставляются индивидуально</li>
@@ -49,9 +49,10 @@
 
 
 
+
 {{--<img src="{{ asset('assets/img/mainBanner.png') }}" class="d-block w-100" alt="...">--}}
 
-<div class="container my-5 second-banner">
+<div class="container my-5 second-banner" data-aos="fade-up">
     <div>
         <div class="col-lg-4 mx-auto mt-20  text-center d-lg-block" id="mobile-home-first"><h2>Большой опыт</h2></div>
         <div class="col-lg-5 mx-auto text-center mb-5"><h6>МЫ ДЕЛАЕМ КРОВЛЮ, КОТОРОЙ ГОРДИМСЯ. ПРОФЕССИОНАЛЬНО. КАЧЕСТВЕННО. С ДУШОЙ. И НЕ ЗАДИРАЕМ ЦЕНЫ.</h6></div>
@@ -93,25 +94,25 @@
         </div>
     </div>
     {{--    ### 4 section--}}
-    <div class="container-fluid main-cont-4 d-block">
+    <div class="container-fluid main-cont-4 d-block" >
         <div class="row pt-5">
             <div class="text-center mt-2 mb-5 ">
                 <h2>Our experience</h2>
                 <p>More than 20 years of working with roof constructions</p>
             </div>
-            <div class="col-lg-2 bg-white mx-auto text-center feedback-card" id="mobile-cards">
+            <div class="col-lg-2 bg-white mx-auto text-center feedback-card" id="mobile-cards" data-aos="fade-up">
                 <img src="{{ asset('assets/img/men.png') }}" class="mt-5 col-6" alt="">
                 <h3 class="mt-2">Johny Borjomi</h3>
                 <p>Home owner</p>
                 <p class="mb-3" id="monseratt-cursive-text">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
             </div>
-            <div class="col-lg-2 bg-white mx-auto text-center feedback-card" id="mobile-cards">
+            <div class="col-lg-2 bg-white mx-auto text-center feedback-card" id="mobile-cards" data-aos="fade-up">
                 <img src="{{ asset('assets/img/men.png') }}" class="mt-5 col-6" alt="">
                 <h3 class="mt-2">Johny Borjomi</h3>
                 <p>Home owner</p>
                 <p class="mb-3" id="monseratt-cursive-text">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
             </div>
-            <div class="col-lg-2 bg-white mx-auto text-center feedback-card" id="mobile-cards">
+            <div class="col-lg-2 bg-white mx-auto text-center feedback-card" id="mobile-cards" data-aos="fade-up">
                 <img src="{{ asset('assets/img/men.png') }}" class="mt-5 col-6" alt="">
                 <h3 class="mt-2">Johny Borjomi</h3>
                 <p>Home owner</p>
@@ -170,6 +171,5 @@
 
     </div>
 
-    </div>
-    </div></body>
+</body>
 @endsection

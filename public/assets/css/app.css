@@ -320,5 +320,13 @@ footer {
         margin-top: 20px;
     }
 
+    #work-1-b h1{
+        font-family: "Montserrat ExtraBold",sans-serif;
+        letter-spacing: 0.1em;
+        font-size: 44px;
+        color: #dbd9d9;
+
+    }
+
 }
 

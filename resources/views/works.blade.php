@@ -6,7 +6,7 @@
     <body id="work-body">
     <div class="container"  id="work-1-b">
         <div class="row" id="work-1-1" data-aos="fade-up">
-            <div class="col text-center mx-auto">
+            <div class="col  text-center mx-auto">
                 <h3 class="mb-5">BEST ROOF INSTALLATION OF LATVIA</h3>
                 <h1 class="mb-5"><em>VS</em> BŪVGRUPA</h1>
                 <button class="btn btn-yellow">More</button>

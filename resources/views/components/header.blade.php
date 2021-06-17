@@ -7,7 +7,7 @@
     </div>
 </div>
 
-<nav class="container-fluid navbar navbar-expand-lg navbar-dark bg-vs-dark mt-3" id="navbar">
+<nav class="container-fluid navbar navbar-expand-lg navbar-dark bg-vs-dark" id="navbar">
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -20,7 +20,7 @@
         <ul class="container navbar-nav header-tex row-cols-auto mt-auto"  id="navbarNav">
 
             <li class="nav-item menu-item-left col">
-                <a class="{{ Route::is('/') ? 'navi' : '' }} current" href="{{ route('home') }}">Главная</a>
+                <a class="{{ Route::is('home') ? 'navi' : '' }} current" href="{{ route('home') }}">Главная</a>
             </li>
             <li class="nav-item menu-item-left col">
                 <a class="{{ Route::is('works') ? 'navi' : '' }} current" href="{{ route('works') }}">Работы</a>

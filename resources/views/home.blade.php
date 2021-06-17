@@ -2,7 +2,7 @@
 
 @section('content')
 
-<body id="home">
+{{--<body id="home">--}}
 
 {{--    ######--}}
 {{--    <div class="index">--}}

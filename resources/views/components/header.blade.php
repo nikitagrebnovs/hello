@@ -1,10 +1,20 @@
-<body class="">
+<body class="bg-white">
+
+<div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-vs-dark p-4">
+        <h5 class="text-white h4">Sekretnoe menu</h5>
+        <span class="text-muted">Toggleable via the navbar brand.</span>
+    </div>
+</div>
+
+<nav class="container-fluid navbar navbar-expand-lg navbar-dark bg-vs-dark mt-3" id="navbar">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
 
-<nav class="container-fluid navbar navbar-expand-lg navbar-dark bg-vs-dark" id="navbar">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+
     <div class="container collapse navbar-collapse nav nav-pills ">
         <img src="{{ asset('assets/img/loge-new.png') }}" alt="Logo" class="logo" id="logo">
         <ul class="container navbar-nav header-tex row-cols-auto mt-auto"  id="navbarNav">

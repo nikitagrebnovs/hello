@@ -275,7 +275,7 @@ h2 {
 
 #work-cards {
 
-    margin-top: 220px;
+    margin-top: 290px;
     transition: all 0.4s ease-in-out;
     position: relative;
 }
@@ -287,7 +287,7 @@ h2 {
 
 #work-cards:hover{
     transition: all 0.4s ease-in-out;
-    margin-top: 8px;
+    margin-top: 80px;
 
 }
 footer {

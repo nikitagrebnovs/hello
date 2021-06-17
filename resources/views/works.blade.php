@@ -15,8 +15,8 @@
     </div>
 
 
-        <div class="row justify-content-between text-center" id="work-cards">
-            <div class="col-3 card cards-work">
+        <div class="row justify-content-between text-center" >
+            <div class="col-3 card cards-work" id="work-cards">
                     <div class="card-body">
                     <h3 class="card-title">Works</h3>
                     <p class="card-text">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet. Donec maximus elementum ex. Cras convallis ex rhoncus, laoreet libero eu, vehicula libero.</p>
@@ -24,7 +24,7 @@
                     </div>
             </div>
 
-            <div class="col-3 card cards-work">
+            <div class="col-3 card cards-work" id="work-cards">
                 <div class="card-body">
                     <h3 class="card-title">OUR BEST</h3>
                     <p class="card-text">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet. Donec maximus elementum ex. Cras convallis ex rhoncus, laoreet libero eu, vehicula libero.</p>
@@ -32,7 +32,7 @@
                 </div>
             </div>
 
-            <div class="col-3 card cards-work">
+            <div class="col-3 card cards-work" id="work-cards">
                 <div class="card-body">
                     <h3 class="card-title">QUALITY</h3>
                     <p class="card-text">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet. Donec maximus elementum ex. Cras convallis ex rhoncus, laoreet libero eu, vehicula libero.</p>

@@ -1,9 +1,8 @@
-<body class="bg-white">
 
 <div class="collapse" id="navbarToggleExternalContent">
     <div class="bg-vs-dark p-4">
         <h5 class="text-white h4">Menu</h5>
-        <span class="text-muted"> <a class="{{ Route::is('home') ? 'navi' : '' }} current" href="{{ route('home') }}">Главная</a></span>
+        <span class="text-muted"><a class="{{ Route::is('home') ? 'navi' : '' }} current" href="{{ route('home') }}">Главная</a></span>
         <span class="text-muted"><a class="{{ Route::is('works') ? 'navi' : '' }} current" href="{{ route('works') }}">Работы</a></span>
         <span class="text-muted"><a class="{{ Route::is('offers') ? 'navi' : '' }} current" href="{{ route('offers') }}">Услуги</a></span>
         <span class="text-muted"><a class="{{ Route::is('montage') ? 'navi' : '' }} current" href="{{ route('montage') }}">Монтаж</a></span>
@@ -30,9 +29,19 @@
             <li class="nav-item menu-item-left col">
                 <a class="{{ Route::is('works') ? 'navi' : '' }} current" href="{{ route('works') }}">Работы</a>
             </li>
-            <li class="nav-item menu-item-left col">
+
+            <li class="nav-item dropdown menu-item-left col">
                 <a class="{{ Route::is('offers') ? 'navi' : '' }} current" href="{{ route('offers') }}">Услуги</a>
+                <ul class="dropdown-menu dropdown-menu-vs" id="drop">
+                    <li><a class="dropdown-item current" href="#">Action</a></li>
+                    <li><a class="dropdown-item current" href="#">Another action</a></li>
+                    <li><a class="dropdown-item current" href="#">Something else here</a></li>
+                </ul>
             </li>
+
+{{--            <li class="nav-item menu-item-left col">--}}
+{{--                <a class="{{ Route::is('offers') ? 'navi' : '' }} current" href="{{ route('offers') }}">Услуги</a>--}}
+{{--            </li>--}}
             <li class="nav-item menu-item-left col">
                 <a class="{{ Route::is('montage') ? 'navi' : '' }} current" href="{{ route('montage') }}">Монтаж</a>
             </li>
@@ -46,4 +55,3 @@
     </div>
 </nav>
 
-</body>

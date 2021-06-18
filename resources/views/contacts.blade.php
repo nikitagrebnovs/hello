@@ -1,5 +1,21 @@
 @extends('layouts.app')
 @section('title') Offers @endsection
+@section('breadcrumbs')
+    <div class="pt-3 pb-3" style="background-color: #fafafa">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="{{ route('home') }}">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Contacts</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+@endsection
 @section('content')
 <div id="contacts">
     <div class="container mt-5">

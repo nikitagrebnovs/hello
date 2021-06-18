@@ -7,8 +7,6 @@
 {{--    ######--}}
 {{--    <div class="index">--}}
 {{--    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">--}}
-
-
 {{--        <div class="carousel-inner index">--}}
 {{--            <div class="carousel-item active">--}}
 {{--                --}}
@@ -72,7 +70,7 @@
 </div>
 
 {{--    ### 3 section--}}
-    <div class="container-md-fluid main-cont-3 rounded-32">
+    <div class="container-md-fluid main-cont-3">
         <div class="row mx-auto justify-content-around">
             <div class="text-white text-center mt-5 mb-5" id="experience-text">
                 <h2>Большой опыт</h2>
@@ -122,22 +120,24 @@
     </div>
 
 {{--    ### 5 section--}}
-<div class="shadow container-fluid mt-2 mt-ld-0">
-    <div class=" text-center text-white bg-warning rounded-32 pt-5">
+<div class="shadow mt-2 mt-ld-0">
+    <div class=" text-center text-white pt-5" id="yellow-bar">
             <h2 class="mt-3">Our experience</h2>
             <p>More than 20 years of working with roof constructions</p>
-        <button class="btn btn-outline-info  btn-rounded btn-block z-depth-0 my-2 waves-effect mb-3" type="submit">Больше</button>
+        <button class="btn btn-yellow-2" type="submit">Больше</button>
     </div>
 </div>
 
 {{--    ###5 section?--}}
-    <!-- Material form contact -->
-    <div class="container">
+<div class="container-fluid bg-gradient-vs row">
 
-        <h5 class=" info-color white-text text-center py-4">
-            <h2 class="text-center">Есть вопросы?</h2>
-        </h5>
+    <div class="col-3" id="send-logo" data-aos="fade-right">
+        <img src="{{asset('assets/img/send2.png')}}" alt="">
+    </div>
 
+
+    <div class="container col" id="contact-form" >
+            <h2 class="text-center" data-aos="fade-left">Есть вопросы?</h2>
         <!--Card content-->
         <div class="card-body mt-1 col-lg-4 mx-auto">
 
@@ -145,24 +145,24 @@
             <form class="text-center" style="color: #757575;" action="#!">
 
                 <!-- Name -->
-                <div class="md-form  ">
-                    <input type="text" id="materialContactFormName" class="form-control shadow" placeholder="Имя" required>
+                <div class="md-form row" data-aos="fade-left" style="transition: 1.5s">
+                    <input type="text" id="materialContactFormName" class="shadow home-form col mb-3" placeholder="Имя" required>
                     <label for="materialContactFormName"></label>
                 </div>
 
                 <!-- E-mail -->
-                <div class="md-form">
-                    <input type="email" id="materialContactFormEmail" class="form-control shadow" placeholder="Email" required>
+                <div class="md-form row" data-aos="fade-left" style="transition: 2s">
+                    <input type="email" id="materialContactFormEmail" class="home-form col shadow" placeholder="Email" required>
                     <label for="materialContactFormEmail"></label>
                 </div>
                 <!--Message-->
-                <div class="md-form">
-                    <textarea id="materialContactFormMessage" class="form-control md-textarea shadow" rows="3" placeholder="Вопрос.." required></textarea>
+                <div class="md-form row mb-4" data-aos="fade-left" style="transition: 3s">
+                    <textarea id="materialContactFormMessage" class="home-form home-form-text col md-textarea shadow mt-3" rows="3" placeholder="Вопрос.." required></textarea>
                     <label for="materialContactFormMessage"></label>
                 </div>
 
                 <!-- Send button -->
-                <button class="btn btn-outline-info btn-rounded btn-block z-depth-0 my-2 waves-effect" type="submit">Отправить</button>
+                <button class="btn btn-send" type="submit" data-aos="fade-left">Отправить</button>
 
             </form>
             <!-- Form -->
@@ -171,5 +171,6 @@
 
     </div>
 
-</body>
+</div>
+
 @endsection

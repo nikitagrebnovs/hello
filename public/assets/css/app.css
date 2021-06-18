@@ -1,5 +1,6 @@
 body {
-    background-color: #EBEBEC;
+    background-color: #EBEBEC !important;
+    /*background-color: #EBEBEC;*/
 }
 
 #navbarNav a{
@@ -45,7 +46,7 @@ body {
 }
 
 
-a {
+#navbarNav a {
     position: relative;
     display: block;
     padding: 4px 0;
@@ -70,13 +71,10 @@ a.current::after {
      transition: transform 0.5s;
  }
 
-a.current:hover {
-     color: #95a5a6;
- }
 
 a.current:hover::after {
      transform: scaleX(1);
-     transform-origin: left;
+     transform-origin: bottom;
  }
 
 .navi{
@@ -182,9 +180,10 @@ a.current:hover::after {
 }
 
 .main-cont-3 {
-    background-color: #252636;
-}
+    background-image: url("../img/wall-dark.png");
+    background-attachment: fixed;
 
+}
 .main-cont-4 {
     height: 770px;
     background-color: #EBEBEC;
@@ -298,6 +297,199 @@ footer {
 .cards-work {
     background-color: #dbaa00 !important;
 }
+
+.breadcrumb {
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.breadcrumb a {
+    color: #535353 !important;
+    text-decoration: none;
+}
+.breadcrumb .active {
+    color: #dbaa00 !important;
+
+}
+
+.nav-item:hover #drop{
+    display: block;
+}
+
+
+
+#drop:hover {
+    color: #252636 !important;
+    display: block;
+    position: absolute;
+    max-width: 200px;
+    transition: all 0.4s ease-in-out;
+    margin-bottom: 80px;
+}
+
+#drop a:hover {
+    background-color: #252636;
+    border-radius: 0 0 10px 10px;
+    transition: all 0.6s ease-in-out;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#drop {
+    font-family: Roboto,sans-serif;
+    font-size: 16px;
+    background: #252636; !important;
+    width: 200px;
+    border-radius: 0 0 10px 10px;
+}
+
+#drop a{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+
+
+
+
+.chat-img {
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    margin-top: 60vh;
+    margin-left: 92vw;
+    z-index: 11;
+    transition: 1s;
+}
+
+.chat-img:hover {
+    /*transform: scale(1.2);*/
+    transition: 1s;
+    transform: translateX(-20px);
+    color: red;
+    filter: brightness(0.7);
+}
+
+
+/*#### CONTACT FORM */
+.bg-gradient-vs{
+    background: rgb(37,38,54);
+    background: linear-gradient(360deg, rgba(37,38,54,1) 0%, rgba(146,147,155,1) 26%, rgba(255,255,255,1) 100%);
+}
+#contact-form {
+    margin-top: 20vh;
+    margin-bottom: 50vh;
+    /*height: 70vh;*/
+}
+
+#contact-form h2{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 600;
+    font-size: 42px;
+    transition: 1s;
+}
+
+
+
+
+
+.home-form {
+    border-radius: 30px;
+    border-style: none;
+    height: 45px;
+    color: lightslategray;
+}
+.home-form:placeholder-shown {
+    padding-left: 20px;
+}
+.home-form-text {
+    border-radius: 10px;
+    height: 100px;
+    max-height: 200px;
+}
+.home-form-text:placeholder-shown {
+    padding-top: 10px;
+}
+
+.btn-send {
+    background: rgb(186,0,255);
+    background: linear-gradient(90deg, rgba(186,0,255,1) 0%, rgba(0,212,255,1) 100%);
+    width: 100%;
+    border-style: none!important;
+    border-radius: 40px!important;
+    height: 50px;
+    color: #fafafa!important;
+    font-family: Montserrat,sans-serif;
+    font-weight: bold!important;
+    font-size: 22px!important;
+    text-transform: uppercase;
+}
+
+
+
+#send-logo {
+
+    position: relative;
+    margin-top: 30vh;
+    /*margin-bottom: 40vh;*/
+    margin-left: 10vw;
+    transition: 2s;
+}
+#send-logo:hover {
+
+}
+
+
+
+#yellow-bar {
+    font-family: Montserrat,sans-serif;
+    height: 30vh;
+    background-image: url("../img/wall.png");
+    background-attachment: fixed;
+}
+#yellow-bar h2 {
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+}
+#yellow-bar p {
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+}
+
+.btn-yellow-2 {
+    background: rgb(186,0,255);
+    background: linear-gradient(90deg, rgba(186,0,255,1) 0%, rgba(0,212,255,1) 100%);
+    width: 20%;
+    border-style: none!important;
+    border-radius: 40px!important;
+    height: 50px;
+    color: #fafafa!important;
+    font-family: Montserrat,sans-serif;
+    font-weight: bold!important;
+    font-size: 22px!important;
+    text-transform: uppercase;
+}
+
+
+
+/*#######################*/
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width: 0px) and (max-width: 1200px)
 {

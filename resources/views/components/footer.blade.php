@@ -1,7 +1,7 @@
 <!-- Remove the container if you want to extend the Footer to full width. -->
-<div class="">
+<div class="bg-vs-dark">
 
-    <footer class="text-white text-center text-lg-start bg-dark">
+    <footer class="container text-white text-center text-lg-start bg-vs-dark">
         <!-- Grid container -->
         <div class=" p-4">
             <!--Grid row-->

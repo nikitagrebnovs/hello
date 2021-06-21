@@ -1,6 +1,15 @@
 body {
     background-color: #EBEBEC !important;
-    /*background-color: #EBEBEC;*/
+    font-family: Montserrat,sans-serif;
+}
+
+button a {
+    text-decoration: none;
+    color: #fafafa;
+}
+
+button a:hover {
+    color: #fafafa;
 }
 
 #navbarNav a{
@@ -13,9 +22,12 @@ body {
 #navbarNav {
     position: relative;
     justify-content: end;
-
-
-
+}
+#navbarNavFooter {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    font-size: 14px;
 }
 
 #navbar {
@@ -125,8 +137,6 @@ a.current:hover::after {
 
 }
 
-
-
 .home-banner-text{
     font-family: "Montserrat Black",sans-serif;
     font-size: 45px;
@@ -137,7 +147,6 @@ a.current:hover::after {
     text-decoration: none;
     list-style-type: none;
 }
-
 
 .logo {
     /*height;*/
@@ -152,17 +161,17 @@ a.current:hover::after {
     background: red;
 }
 
+#mobile-menu a{
+    text-decoration: none;
+    color: #fafafa;
+}
+
 .menu-item-left {
     margin-right: 2vw;
     margin-top: 0.5vh;
     /*height: 40px;*/
 
 }
-.menu-item-left a{
-
-}
-
-
 
 .menu-item-last {
     margin-top: 0.5vh;
@@ -180,8 +189,9 @@ a.current:hover::after {
 }
 
 .main-cont-3 {
-    background-image: url("../img/wall-dark.png");
-    background-attachment: fixed;
+    /*background-image: url("../img/wall-dark.png");*/
+    /*background-attachment: fixed;*/
+
 
 }
 .main-cont-4 {
@@ -199,21 +209,11 @@ a.current:hover::after {
 }
 
 h2 .main-cont-4 {
-    font-family: "Montserrat Regular", serif;
     font-size: 24px;
     color: #252636;
 }
 
-
-p {
-    font-family: "Montserrat ExtraLight", sans-serif;
-
-}
-
 h2 {
-
-    font-family: "Montserrat SemiBold", sans-serif;
-
     font-size: 48px;
 }
 
@@ -234,14 +234,12 @@ h2 {
     transition: 2s;
 }
 #work-1-b h1{
-  font-family: "Montserrat ExtraBold",sans-serif;
     letter-spacing: 0.1em;
     font-size: 64px;
     color: #dbd9d9;
 
 }
 #work-1-b h3{
-  font-family: "Montserrat Regular",sans-serif;
     letter-spacing: 0.1em;
     font-weight: 600;
     font-size: 18px;
@@ -249,13 +247,12 @@ h2 {
 
 }
 #work-1-b em{
-    color: #dbaa00;
+    color: #F5C405;
 }
 .btn-yellow {
     width: 100px;
-    font-family: "Montserrat SemiBold",sans-serif;
     font-weight: 700;
-    background-color: #ffde00 !important;
+    background-color: #F5C405 !important;
     color: #69768d !important;
 }
 .btn-yellow:hover {
@@ -273,7 +270,6 @@ h2 {
 }
 
 #work-cards {
-
     margin-top: 290px;
     transition: all 0.4s ease-in-out;
     position: relative;
@@ -292,7 +288,16 @@ h2 {
 footer {
     position: relative;
     z-index: 20;
+    text-decoration: none;
 }
+#termsAndConditions a{
+    text-decoration: none;
+    color: #fafafa;
+}
+#termsAndConditions a:hover{
+    text-decoration: underline;
+}
+
 
 .cards-work {
     background-color: #dbaa00 !important;
@@ -355,9 +360,9 @@ footer {
 
 .chat-img {
     position: fixed;
-    width: 80px;
-    height: 80px;
-    margin-top: 60vh;
+    width: 4vw;
+    height: auto;
+    margin-top: 45vh;
     margin-left: 92vw;
     z-index: 11;
     transition: 1s;
@@ -380,7 +385,6 @@ footer {
 #contact-form {
     margin-top: 20vh;
     margin-bottom: 50vh;
-    /*height: 70vh;*/
 }
 
 #contact-form h2{
@@ -413,8 +417,7 @@ footer {
 }
 
 .btn-send {
-    background: rgb(186,0,255);
-    background: linear-gradient(90deg, rgba(186,0,255,1) 0%, rgba(0,212,255,1) 100%);
+    background-color:#F5C405 !important;
     width: 100%;
     border-style: none!important;
     border-radius: 40px!important;
@@ -430,7 +433,7 @@ footer {
 
 #send-logo {
 
-    position: relative;
+    /*position: absolute;*/
     margin-top: 30vh;
     /*margin-bottom: 40vh;*/
     margin-left: 10vw;
@@ -461,9 +464,8 @@ footer {
     text-transform: uppercase;
 }
 
-.btn-yellow-2 {
-    background: rgb(186,0,255);
-    background: linear-gradient(90deg, rgba(186,0,255,1) 0%, rgba(0,212,255,1) 100%);
+.btn-vs-w {
+
     width: 20%;
     border-style: none!important;
     border-radius: 40px!important;
@@ -474,6 +476,18 @@ footer {
     font-size: 22px!important;
     text-transform: uppercase;
 }
+.btn-grey {
+    background: rgb(37,38,54) !important;
+}
+
+.btn-grey:hover {
+    background: rgba(37, 38, 54, 0.8) !important;
+}
+.btn-yellow {
+    background: #F5C405 !important;
+}
+
+
 
 
 
@@ -514,11 +528,6 @@ footer {
     height: 12vh;
 }
 
-
-
-
-
-
 .bg-vs-yellow {
     background-color: #F5C405;
 }
@@ -533,11 +542,20 @@ footer {
 
 @media screen and (min-width: 0px) and (max-width: 1200px)
 {
+    #conatcs-img{
+        display: none;
+    }
+    .home-first {
+
+    }
+
+    .btn-vs-w {
+        width: 60vw;
+    }
     #navbarNav { display: none;
     }
     #home-first {
             height: 100vh;
-
 
     }
     #mobile-number {
@@ -560,5 +578,16 @@ footer {
 
     }
 
+}
+
+/*## Color picker#*/
+.yellow {
+    background-color: #F5C405;
+}
+.dark-yellow {
+    background: #dbaa00
+}
+.dark-vs {
+   background-color:  #252636;
 }
 

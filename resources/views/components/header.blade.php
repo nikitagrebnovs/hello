@@ -1,13 +1,13 @@
 
 <div class="collapse" id="navbarToggleExternalContent">
-    <div class="bg-vs-dark p-4">
+    <div class="bg-vs-dark p-4 row" id="mobile-menu">
         <h5 class="text-white h4">Menu</h5>
-        <span class="text-muted"><a class="{{ Route::is('home') ? 'navi' : '' }} current" href="{{ route('home') }}">Главная</a></span>
-        <span class="text-muted"><a class="{{ Route::is('works') ? 'navi' : '' }} current" href="{{ route('works') }}">Работы</a></span>
-        <span class="text-muted"><a class="{{ Route::is('offers') ? 'navi' : '' }} current" href="{{ route('offers') }}">Услуги</a></span>
-        <span class="text-muted"><a class="{{ Route::is('montage') ? 'navi' : '' }} current" href="{{ route('montage') }}">Монтаж</a></span>
-        <span class="text-muted"><a class="{{ Route::is('about-us') ? 'navi' : '' }} current" href="{{ route('about-us') }}">Компания</a></span>
-        <span class="text-muted"><a class="{{ Route::is('contacts') ? 'navi' : '' }} current" href="{{ route('contacts') }}">Контакты</a></span>
+        <span class="text-muted mt-2"><a class="{{ Route::is('home') ? 'navi' : '' }} current" href="{{ route('home') }}">Главная</a></span>
+        <span class="text-muted mt-2"><a class="{{ Route::is('works') ? 'navi' : '' }} current" href="{{ route('works') }}">Работы</a></span>
+        <span class="text-muted mt-2"><a class="{{ Route::is('offers') ? 'navi' : '' }} current" href="{{ route('offers') }}">Услуги</a></span>
+        <span class="text-muted mt-2"><a class="{{ Route::is('montage') ? 'navi' : '' }} current" href="{{ route('montage') }}">Монтаж</a></span>
+        <span class="text-muted mt-2"><a class="{{ Route::is('about-us') ? 'navi' : '' }} current" href="{{ route('about-us') }}">Компания</a></span>
+        <span class="text-muted mt-2"><a class="{{ Route::is('contacts') ? 'navi' : '' }} current" href="{{ route('contacts') }}">Контакты</a></span>
     </div>
 </div>
 
@@ -20,7 +20,8 @@
 
 
     <div class="container collapse navbar-collapse nav nav-pills ">
-        <img src="{{ asset('assets/img/loge-new.png') }}" alt="Logo" class="logo" id="logo">
+        <a href="{{route('home')}}"><img src="{{ asset('assets/img/loge-new.png') }}" alt="Logo" class="logo" id="logo"></a>
+
         <ul class="container navbar-nav header-tex row-cols-auto mt-auto"  id="navbarNav">
 
             <li class="nav-item menu-item-left col">

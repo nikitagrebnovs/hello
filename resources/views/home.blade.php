@@ -4,8 +4,11 @@
 
 {{--    <div class="container-fluid">--}}
 
-        <div class="home-banner parallax" id="home-first">
-            <div class="container home-banner" data-aos="fade-right">
+        <div>
+            <img src="{{asset('asse/img/mainBanner.png')}}" alt="">
+        </div>
+        <div class="" id="home-first">
+            <div class="container home-banner" data-aos="fade-right" id="home-first-text">
                 <h1 class="home-banner-text mt-5">Мы <strong>не продаём</strong> крыши </h1>
                 <h1 class="mt-2 mb-3 home-banner-text">Мы продаём <em>мечты</em></h1>
                 <ul>

@@ -4,20 +4,19 @@
 
 {{--    <div class="container-fluid">--}}
 
-        <div>
-            <img src="{{asset('asse/img/mainBanner.png')}}" alt="">
-        </div>
-        <div class="" id="home-first">
+        <div id="home-banner" class="d-block"> <img src="{{asset('assets/img/mainBanner.png')}}" class="img-banner"  alt=""></div>
+        <span id="home-first"></span>
+        <div id="home-first-span" class="d-block col-4" data-aos="fade-right">
             <div class="container home-banner" data-aos="fade-right" id="home-first-text">
-                <h1 class="home-banner-text mt-5">Мы <strong>не продаём</strong> крыши </h1>
+                <h1 class="home-banner-text mt-5 pt-2">Мы <strong>не продаём</strong> крыши </h1>
                 <h1 class="mt-2 mb-3 home-banner-text">Мы продаём <em>мечты</em></h1>
-                <ul>
+                <ul class="text-white mt-3">
                     <li class="mt-2"><i class="fas fa-check me-2"></i>Скидки на работы предоставляются индивидуально</li>
                     <li class="mt-2"><i class="fas fa-check me-2"></i>Гарантия на выполненные работы пять лет</li>
                     <li class="mt-2"><i class="fas fa-check me-2"></i>Замер, расчёт, консультация бесплатно</li>
                     <li class="mt-2 mb-2"><i class="fas fa-check me-2"></i>Специалисты высокого класса с огромным опытом работы</li>
                 </ul>
-                <button class="btn btn-vs-w btn-yellow ms-lg-5 mt-lg-3"><a href="{{ route('offers') }}" class="d-block">Больше</a></button>
+                <button class="btn btn-yellow btn-vs-w ms-lg-5 mt-lg-3"><a href="{{ route('offers') }}" class="d-block">Больше</a></button>
             </div>
         </div>
 
@@ -105,7 +104,7 @@
 
 {{--    ###5 section?--}}
 <div class="container-lg-fluid bg-gradient-vs">
-<div class="row">
+<div class="container-fluid row">
     <div class="col-lg-3 col" id="send-logo" data-aos="fade-left">
         <img src="{{asset('assets/img/send2.png')}}" data-aos="fade-right" alt="" id="conatcs-img">
     </div>

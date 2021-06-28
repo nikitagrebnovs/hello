@@ -4,9 +4,9 @@
 
 {{--    <div class="container-fluid">--}}
 
-        <div id="home-banner" class="d-block"> <img src="{{asset('assets/img/mainBanner.png')}}" class="img-banner"  alt=""></div>
-        <span id="home-first"></span>
-        <div id="home-first-span" class="d-block col-4" data-aos="fade-right">
+        <div id="home-banner"></div>
+{{--        <div id="home-first-span">dwqqw</div>--}}
+        <div id="home-first" class="d-block col-4" data-aos="fade-right">
             <div class="container home-banner" data-aos="fade-right" id="home-first-text">
                 <h1 class="home-banner-text mt-5 pt-2">Мы <strong>не продаём</strong> крыши </h1>
                 <h1 class="mt-2 mb-3 home-banner-text">Мы продаём <em>мечты</em></h1>

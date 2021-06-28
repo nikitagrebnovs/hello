@@ -110,34 +110,60 @@ a.current:hover::after {
 
 
 .img-banner {
-    height: 70vh;
-    filter: blur(5px);
+    height: 80vh;
+    filter: blur(0px);
     width: 100%;
     object-fit: cover;
 }
 #home-first-span {
+    height: 100px;
     margin-top: 25vh;
     background: rgba(90, 96, 107, 0.76);
     margin-left: 50vw;
-    position: relative;
+    position: absolute;
     margin-bottom: 20vh;
     border-radius: 20px;
+    backdrop-filter: blur(10px);
+    /*z-index: 10;*/
 }
 #home-first {
-    margin-top: 12vh;
-    /*height: 100vh;*/
-    /*margin-left: 80vw;*/
+    margin-left: 65vw;
     position: relative;
-    /*margin-bottom: 50vh;*/
     border-radius: 20px;
+    backdrop-filter: blur(2em);
 }
 #home-first-text {
-    padding-bottom: 20px;
-    width: 32vw;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    margin-top: 47vh;
+    /*position: absolute;*/
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    /*width: 80%;*/
+    padding: 20px;
+    text-align: center;
+    backdrop-filter: blur(2em);
+}
+/* slightly transparent fallback */
+.backdrop-blur {
+    background-color: rgba(255, 255, 255, .9);
+}
+
+/* if backdrop support: very transparent and blurred */
+@supports ((-webkit-backdrop-filter: blur(10em)) or (backdrop-filter: blur(2em))) {
+    .backdrop-blur {
+        background-color: rgba(255, 255, 255, .5);
+        -webkit-backdrop-filter: blur(2em);
+        backdrop-filter: blur(2em);
+    }
 }
 #home-first-text button{
    width: 200px;
 }
+
 
 .home-banner-text strong{
     font-family: "Montserrat ExtraBold",sans-serif;
@@ -153,8 +179,23 @@ a.current:hover::after {
     color: #F5C405;
 }
 
-.home-banner {
-    /*width: ;*/
+#home-banner {
+    /* The image used */
+    background-image: url("../img/mainBanner.png");
+    /* Add the blur effect */
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+
+    /* Full height */
+    height: 80vh;
+    width: 100%;
+    margin-top: auto;
+    position: absolute;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .home-banner-button {

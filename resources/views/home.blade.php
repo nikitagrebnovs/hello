@@ -6,7 +6,7 @@
 
         <div id="home-banner"></div>
 {{--        <div id="home-first-span">dwqqw</div>--}}
-        <div id="home-first" class="d-block col-4" data-aos="fade-right">
+        <div id="home-first" class="col-4" >
             <div class="container home-banner" data-aos="fade-right" id="home-first-text">
                 <h1 class="home-banner-text mt-5 pt-2">Мы <strong>не продаём</strong> крыши </h1>
                 <h1 class="mt-2 mb-3 home-banner-text">Мы продаём <em>мечты</em></h1>
@@ -16,7 +16,7 @@
                     <li class="mt-2"><i class="fas fa-check me-2"></i>Замер, расчёт, консультация бесплатно</li>
                     <li class="mt-2 mb-2"><i class="fas fa-check me-2"></i>Специалисты высокого класса с огромным опытом работы</li>
                 </ul>
-                <button class="btn btn-yellow btn-vs-w ms-lg-5 mt-lg-3"><a href="{{ route('offers') }}" class="d-block">Больше</a></button>
+                <button class="btn btn-yellow btn-vs-w mt-lg-3"><a href="{{ route('offers') }}" class="d-block">Больше</a></button>
             </div>
         </div>
 
@@ -26,7 +26,7 @@
 
 {{--<img src="{{ asset('assets/img/mainBanner.png') }}" class="d-block w-100" alt="...">--}}
 
-<div class="container my-5 second-banner" data-aos="fade-up">
+<div class="container second-banner" data-aos="fade-up">
     <div>
         <div class="col-lg-4 mx-auto mt-20  text-center d-lg-block" id="mobile-home-first"><h2>Большой опыт</h2></div>
         <div class="col-lg-5 mx-auto text-center mb-5"><h6>МЫ ДЕЛАЕМ КРОВЛЮ, КОТОРОЙ ГОРДИМСЯ. ПРОФЕССИОНАЛЬНО. КАЧЕСТВЕННО. С ДУШОЙ. И НЕ ЗАДИРАЕМ ЦЕНЫ.</h6></div>
@@ -40,7 +40,7 @@
             <div class="my-3"><h4>Гарантия на кровлю - до 25 лет</h4></div>
         </div><div class="col-lg-4 col mx-auto">
             <div class="col-12"><img src="{{asset('assets/img/roof.png')}}"  class="col-6 rounded-3 mx-auto d-block" alt=""></div>
-            <div class="my-3"><h4>Гарантия на кровлю - до 25 лет</h4></div>
+            <div class="my-3 mb-lg-5"><h4>Гарантия на кровлю - до 25 лет</h4></div>
         </div>
     </div>
 </div>
@@ -48,18 +48,18 @@
 {{--    ### 3 section--}}
     <div class="container-md-fluid main-cont-3 bg-vs-dark">
         <div class="row mx-auto justify-content-around">
-            <div class="text-white text-center mt-5 mb-5" id="">
+            <div class="text-white text-center mb-5 mt-lg-5" id="">
                 <h2>Большой опыт</h2>
                 <p>More than 20 years of working with roof constructions</p>
             </div>
-            <div class="col-lg-3">
-                <img src="{{asset('assets/img/home.jpg')}}" class="col-12 rounded-3 mx-auto d-block" alt="">
+            <div class="col-lg-3 mt-3 img-zoom">
+                <img src="{{asset('assets/img/home.jpg')}}" class="slider-img rounded-3 mx-auto d-block" alt="">
             </div>
-            <div class="col-lg-3 mt-3">
-                <img src="{{asset('assets/img/home.jpg')}}" class="col-12 rounded-3 mx-auto d-block" alt="">
+            <div class="col-lg-3 mt-3 img-zoom">
+                <img src="{{asset('assets/img/slider-home-2.jpg')}}" class="slider-img rounded-3 mx-auto d-block" alt="">
             </div>
-            <div class="col-lg-3 mt-3">
-                <img src="{{asset('assets/img/home.jpg')}}" class="col-12 rounded-3 mx-auto d-block" alt="">
+            <div class="col-lg-3 mt-3 img-zoom">
+                <img src="{{asset('assets/img/slider-home-3.jpg')}}" class="slider-img rounded-3 mx-auto d-block" alt="">
             </div>
         </div>
         <div class="text-center mt-lg-5 mt-4">
@@ -69,7 +69,7 @@
     </div>
     {{--    ### 4 section--}}
     <div class="container-fluid main-cont-4 d-block" >
-        <div class="row pt-5">
+        <div class="row">
             <div class="text-center mt-2 mb-5 ">
                 <h2>Our experience</h2>
                 <p>More than 20 years of working with roof constructions</p>

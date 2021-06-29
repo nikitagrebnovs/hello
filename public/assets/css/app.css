@@ -110,25 +110,25 @@ a.current:hover::after {
 
 
 .img-banner {
-    height: 80vh;
+    /*height: 90vh;*/
     filter: blur(0px);
     width: 100%;
     object-fit: cover;
 }
 #home-first-span {
-    height: 100px;
-    margin-top: 25vh;
+    /*height: 100px;*/
+    /*margin-top: 25vh;*/
     background: rgba(90, 96, 107, 0.76);
     margin-left: 50vw;
-    position: absolute;
-    margin-bottom: 20vh;
+    /*position: absolute;*/
+    /*margin-bottom: 20vh;*/
     border-radius: 20px;
     backdrop-filter: blur(10px);
     /*z-index: 10;*/
 }
 #home-first {
     margin-left: 65vw;
-    position: relative;
+    position: center;
     border-radius: 20px;
     backdrop-filter: blur(2em);
 }
@@ -147,26 +147,12 @@ a.current:hover::after {
     text-align: center;
     backdrop-filter: blur(2em);
 }
-/* slightly transparent fallback */
-.backdrop-blur {
-    background-color: rgba(255, 255, 255, .9);
-}
 
-/* if backdrop support: very transparent and blurred */
-@supports ((-webkit-backdrop-filter: blur(10em)) or (backdrop-filter: blur(2em))) {
-    .backdrop-blur {
-        background-color: rgba(255, 255, 255, .5);
-        -webkit-backdrop-filter: blur(2em);
-        backdrop-filter: blur(2em);
-    }
-}
 #home-first-text button{
    width: 200px;
 }
 
-
 .home-banner-text strong{
-    font-family: "Montserrat ExtraBold",sans-serif;
     font-size: 45px;
     color: #F5C405;
 }
@@ -180,18 +166,13 @@ a.current:hover::after {
 }
 
 #home-banner {
-    /* The image used */
     background-image: url("../img/mainBanner.png");
-    /* Add the blur effect */
     filter: blur(0px);
     -webkit-filter: blur(0px);
-
-    /* Full height */
-    height: 80vh;
+    height: 80%;
     width: 100%;
     margin-top: auto;
     position: absolute;
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -261,11 +242,25 @@ a.current:hover::after {
 }
 
 .main-cont-3 {
-    /*background-image: url("../img/wall-dark.png");*/
-    /*background-attachment: fixed;*/
-
 
 }
+.slider-img {
+    width: 100%;
+    height: 100%;
+    transition:transform 3s ease-in;
+}
+.img-zoom:hover img{
+    transform: scale(1.3);
+    filter: opacity(50%);
+
+}
+.img-zoom {
+    overflow: hidden;
+    /*width: 100%;*/
+}
+
+
+
 .main-cont-4 {
     height: 770px;
     background-color: #EBEBEC;
@@ -620,7 +615,7 @@ footer {
     #navbarNav { display: none;
     }
     #home-first {
-        /*    height: 100vh;*/
+            /*height: 10vh;*/
         /*position: absolute;*/
 
     }

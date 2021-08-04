@@ -1,74 +1,116 @@
 @extends('layouts.app')
 
 @section('content')
-
-{{--    <div class="container-fluid">--}}
-
-        <div id="home-banner"></div>
-{{--        <div id="home-first-span">dwqqw</div>--}}
-        <div id="home-first" class="col-4" >
-            <div class="container home-banner" data-aos="fade-right" id="home-first-text">
-                <h1 class="home-banner-text mt-5 pt-2">Мы <strong>не продаём</strong> крыши </h1>
-                <h1 class="mt-2 mb-3 home-banner-text">Мы продаём <em>мечты</em></h1>
-                <ul class="text-white mt-3">
-                    <li class="mt-2"><i class="fas fa-check me-2"></i>Скидки на работы предоставляются индивидуально</li>
-                    <li class="mt-2"><i class="fas fa-check me-2"></i>Гарантия на выполненные работы пять лет</li>
-                    <li class="mt-2"><i class="fas fa-check me-2"></i>Замер, расчёт, консультация бесплатно</li>
-                    <li class="mt-2 mb-2"><i class="fas fa-check me-2"></i>Специалисты высокого класса с огромным опытом работы</li>
-                </ul>
-                <button class="btn btn-yellow btn-vs-w mt-lg-3"><a href="{{ route('offers') }}" class="d-block">Больше</a></button>
+<div class="" id="home-banner">
+    <div id="contact-request" class="justify-content-between po">
+        <h4 class="text-start">Получить бесплатную консультацию!</h4>
+        <form class="justify-content-center">
+            <div class="mb-3 d-flex sm-request-input">
+                <img src="{{ asset('assets/img/people.svg') }}" alt="">
+                <label for="form-request-name" class="form-label"></label>
+                <input type="text" class="form-control" id="form-request-name" aria-describedby="request-name" placeholder="Ваше имя">
             </div>
-        </div>
-
-
-
-
-
-{{--<img src="{{ asset('assets/img/mainBanner.png') }}" class="d-block w-100" alt="...">--}}
-
-<div class="container second-banner" data-aos="fade-up">
-    <div>
-        <div class="col-lg-4 mx-auto mt-20  text-center d-lg-block" id="mobile-home-first"><h2>Большой опыт</h2></div>
-        <div class="col-lg-5 mx-auto text-center mb-5"><h6>МЫ ДЕЛАЕМ КРОВЛЮ, КОТОРОЙ ГОРДИМСЯ. ПРОФЕССИОНАЛЬНО. КАЧЕСТВЕННО. С ДУШОЙ. И НЕ ЗАДИРАЕМ ЦЕНЫ.</h6></div>
+            <div class="mb-3 d-flex sm-request-input">
+                <img src="{{ asset('assets/img/phone.svg') }}" alt="">
+                <label for="form-request-email" class="form-label"></label>
+                <input type="phone" class="form-control" id="form-request-email" placeholder="Номер телефона">
+            </div>
+            <div class="col text-center">
+            <button type="submit" id="sm-form-request-submit" class="btn btn-outline-warning text-center">Отправить</button>
+            </div>
+        </form>
     </div>
-    <div class="row">
-        <div class="col-lg-4 col mx-auto">
-            <div class="col-12"><img src="{{asset('assets/img/roof.png')}}"  class="col-6 rounded-3 mx-auto d-block" alt=""></div>
-            <div class="my-3"><h4>Гарантия на кровлю - до 25 лет</h4></div>
-        </div><div class="col-lg-4 mx-auto">
-            <div class="col-12"><img src="{{asset('assets/img/roof.png')}}"  class="col-6 rounded-3 mx-auto d-block" alt=""></div>
-            <div class="my-3"><h4>Гарантия на кровлю - до 25 лет</h4></div>
-        </div><div class="col-lg-4 col mx-auto">
-            <div class="col-12"><img src="{{asset('assets/img/roof.png')}}"  class="col-6 rounded-3 mx-auto d-block" alt=""></div>
-            <div class="my-3 mb-lg-5"><h4>Гарантия на кровлю - до 25 лет</h4></div>
-        </div>
+    <div id="main-banner-title">
+    <h2>Мы не продаём крыши Мы продаём мечты</h2>
+    </div>
+</div>
+
+<div class="position-absolute" id="main-sec-figure">
+    <img src="{{ asset('assets/img/rectangle.svg') }}" alt="">
+</div>
+<div class="container-fluid second-banner" data-aos="fade-up">
+    <div>
+        <div class="col-lg-4 mb-lg-5 mx-auto mt-20 text-center d-inline" id="mobile-home-first"><h2>Почему нас рекомендуют?</h2></div>
+    </div>
+    <div class="row justify-content-between" id="main-sec">
+       <div class="col text-center">
+           <div class="main-sec-logo text-center">
+               <img src="{{asset('assets/img/wallet.svg')}}" alt="" class=" main-sec-logo-inside">
+           </div>
+           <div class="main-sec-text mt-4 text-center">
+               <h4 class="text-uppercase">Razumanja cena</h4>
+               <p class="mt-2">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One</p>
+           </div>
+       </div>
+       <div class="col text-center">
+           <div class="main-sec-logo text-center">
+               <img src="{{asset('assets/img/star.svg')}}" alt="" class=" main-sec-logo-inside">
+           </div>
+           <div class="main-sec-text mt-4 text-center">
+               <h4 class="text-uppercase">Razumanja cena</h4>
+               <p class="mt-2 text-center">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One</p>
+           </div>
+       </div>
+       <div class="col text-center">
+           <div class="main-sec-logo text-center">
+               <img src="{{asset('assets/img/list.svg')}}" alt="" class=" main-sec-logo-inside">
+           </div>
+           <div class="main-sec-text mt-4 text-center">
+               <h4 class="text-uppercase">Razumanja cena</h4>
+               <p class="mt-2 col">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One</p>
+           </div>
+       </div>
+       <div class="col text-center">
+           <div class="main-sec-logo text-center">
+               <img src="{{asset('assets/img/carbon_delivery.svg')}}" alt="" class=" main-sec-logo-inside">
+           </div>
+           <div class="main-sec-text mt-4 text-center">
+               <h4 class="text-uppercase">Razumanja cena</h4>
+               <p class="mt-2">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One</p>
+           </div>
+       </div>
+
+
+
+
     </div>
 </div>
 
 {{--    ### 3 section--}}
-    <div class="container-md-fluid main-cont-3 bg-vs-dark">
-        <div class="row mx-auto justify-content-around">
-            <div class="text-white text-center mb-5 mt-lg-5" id="">
-                <h2>Большой опыт</h2>
-                <p>More than 20 years of working with roof constructions</p>
-            </div>
-            <div class="col-lg-3 mt-3 img-zoom">
+    <div class="container-md-fluid main-cont-3 bg-vs-dark pt-lg-3">
+        <div class="text-white text-center mb-5 mt-lg-5">
+            <h1>Наша гордость</h1>
+            <p class="">More than 20 years of working with roof constructions</p>
+        </div>
+        <div class="d-flex mx-auto justify-content-around">
+            <div class=" mt-3 img-zoom d-flex justify-content-center">
+                <div class="text-white text-center" id="banner-text-content">
+                    <h2 class="">Mārupe Residence</h2>
+                    <p class="text-center col-6 mx-auto">Lorem Ipsum is simply <p>
+                </div>
                 <img src="{{asset('assets/img/home.jpg')}}" class="slider-img rounded-3 mx-auto d-block" alt="">
             </div>
-            <div class="col-lg-3 mt-3 img-zoom">
+            <div class="my-auto mt-3 img-zoom d-flex justify-content-center">
+                <div class="text-white text-center" id="banner-text-content">
+                    <h2 class="">Zolitūde Residence</h2>
+                    <p class="text-center col-6 mx-auto">Lorem Ipsum is simply <p>
+                </div>
                 <img src="{{asset('assets/img/slider-home-2.jpg')}}" class="slider-img rounded-3 mx-auto d-block" alt="">
             </div>
-            <div class="col-lg-3 mt-3 img-zoom">
+            <div class="my-auto mt-3 img-zoom d-flex justify-content-center">
+                <div class="text-white text-center" id="banner-text-content">
+                    <h2 class="">Purvciems Residence</h2>
+                    <p class="text-center col-6 mx-auto">Lorem Ipsum is simply <p>
+                </div>
                 <img src="{{asset('assets/img/slider-home-3.jpg')}}" class="slider-img rounded-3 mx-auto d-block" alt="">
             </div>
         </div>
         <div class="text-center mt-lg-5 mt-4">
-            <button class="btn btn-vs-w btn-yellow mb-5"><a href="{{route('works')}}" class="d-block">Больше</a></button>
-
+            <a href="{{route('works')}}" class="btn btn-outline-warning mb-5 text-uppercase btn-vs-outline">Больше</a>
         </div>
     </div>
     {{--    ### 4 section--}}
-    <div class="container-fluid main-cont-4 d-block" >
+    <div class="container-fluid main-cont-4 d-block mt-lg-5" >
         <div class="row">
             <div class="text-center mt-2 mb-5 ">
                 <h2>Our experience</h2>

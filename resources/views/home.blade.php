@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="" id="home-banner">
+<div class="col-sm-2" id="home-banner">
     <div id="contact-request" class="justify-content-between po">
         <h4 class="text-start">Получить бесплатную консультацию!</h4>
         <form class="justify-content-center">
@@ -20,17 +20,17 @@
             </div>
         </form>
     </div>
-    <div id="main-banner-title">
+    <div id="main-banner-title" class="my-sm-auto">
     <h2>Мы не продаём крыши Мы продаём мечты</h2>
     </div>
 </div>
 
-<div class="position-absolute" id="main-sec-figure">
+<div class="position-absolute mb-5" id="main-sec-figure">
     <img src="{{ asset('assets/img/rectangle.svg') }}" alt="">
 </div>
-<div class="container second-banner" data-aos="fade-up">
+<div class="container second-banner mt-5" data-aos="fade-up">
     <div>
-        <div class="col-lg-4 mb-lg-5 mx-auto mt-20 text-center d-inline" id="mobile-home-first"><h2>Почему нас рекомендуют?</h2></div>
+        <div class="col-lg-4 mb-lg-5 mx-auto mt-20 text-center d-inline mt-5" id="mobile-home-first"><h2>Почему нас рекомендуют?</h2></div>
     </div>
     <div class="row justify-content-between" id="main-sec">
        <div class="col text-center">
@@ -73,11 +73,11 @@
 </div>
 {{--    ### 3 section--}}
     <div class="container-md-fluid main-cont-3 bg-vs-dark pt-lg-3">
-        <div class="text-white text-center mb-5 mt-lg-5">
+        <div class="text-white text-center mb-5 pt-5 mt-lg-5">
             <h1>Наша гордость</h1>
             <p class="">More than 20 years of working with roof constructions</p>
         </div>
-        <div class="d-flex mx-auto justify-content-around">
+        <div class="d-lg-flex mx-auto justify-content-around">
             <div class=" mt-3 img-zoom d-flex justify-content-center">
                 <div class="text-white text-center" id="banner-text-content">
                     <h2 class="">Mārupe Residence</h2>
@@ -108,7 +108,7 @@
     <div class="text-center">
         <h1>Как мы работаем</h1>
     </div>
-    <div class="d-flex mt-5" id="main-4-sec-middle">
+    <div class="d-lg-flex mt-5" id="main-4-sec-middle">
         <div id="main-4-sec-top-content" class="d-flex mx-auto">
                 <div class="my-auto">
                     <strong>1</strong>
@@ -139,7 +139,7 @@
     </div>
     <div id="lifeCycleImg" class="d-flex mx-auto">
     </div>
-    <div class="d-flex">
+    <div class="d-lg-flex">
         <div id="main-4-sec-top-content" class="d-flex mx-auto">
             <div class="my-auto">
                 <strong>2</strong>

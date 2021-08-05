@@ -805,6 +805,24 @@ footer {
 
 @media screen and (min-width: 0px) and (max-width: 1200px)
 {
+#contact-request {
+    display: none;
+}
+#main-banner-title {
+   display: none;
+}
+#mobile-home-first {
+    padding-top: 210%;
+}
+#mobile-home-first h2{
+    margin-top: 300px;
+}
+.second-banner {
+    height: 1800px;
+}
+#lifeCycleImg {
+    background-size: 100vw;
+}
 
 
     .btn-vs-w {

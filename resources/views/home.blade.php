@@ -28,14 +28,14 @@
 <div class="position-absolute" id="main-sec-figure">
     <img src="{{ asset('assets/img/rectangle.svg') }}" alt="">
 </div>
-<div class="container-fluid second-banner" data-aos="fade-up">
+<div class="container second-banner" data-aos="fade-up">
     <div>
         <div class="col-lg-4 mb-lg-5 mx-auto mt-20 text-center d-inline" id="mobile-home-first"><h2>Почему нас рекомендуют?</h2></div>
     </div>
     <div class="row justify-content-between" id="main-sec">
        <div class="col text-center">
-           <div class="main-sec-logo text-center">
-               <img src="{{asset('assets/img/wallet.svg')}}" alt="" class=" main-sec-logo-inside">
+           <div class="main-sec-logo text-center d-flex align-middle justify-content-center">
+               <img src="{{asset('assets/img/wallet.svg')}}" alt="" class=" main-sec-logo-" style="width: 60px">
            </div>
            <div class="main-sec-text mt-4 text-center">
                <h4 class="text-uppercase">Razumanja cena</h4>
@@ -43,8 +43,8 @@
            </div>
        </div>
        <div class="col text-center">
-           <div class="main-sec-logo text-center">
-               <img src="{{asset('assets/img/star.svg')}}" alt="" class=" main-sec-logo-inside">
+           <div class="main-sec-logo text-center d-flex align-middle justify-content-center">
+               <img src="{{asset('assets/img/star.svg')}}" alt="" class=" main-sec-logo-inside-others" style="width: 45px">
            </div>
            <div class="main-sec-text mt-4 text-center">
                <h4 class="text-uppercase">Razumanja cena</h4>
@@ -52,8 +52,8 @@
            </div>
        </div>
        <div class="col text-center">
-           <div class="main-sec-logo text-center">
-               <img src="{{asset('assets/img/list.svg')}}" alt="" class=" main-sec-logo-inside">
+           <div class="main-sec-logo text-center d-flex align-middle justify-content-center">
+               <img src="{{asset('assets/img/list.svg')}}" alt="" style="width: 50px">
            </div>
            <div class="main-sec-text mt-4 text-center">
                <h4 class="text-uppercase">Razumanja cena</h4>
@@ -61,21 +61,16 @@
            </div>
        </div>
        <div class="col text-center">
-           <div class="main-sec-logo text-center">
-               <img src="{{asset('assets/img/carbon_delivery.svg')}}" alt="" class=" main-sec-logo-inside">
+           <div class="main-sec-logo text-center d-flex align-middle justify-content-center">
+               <img src="{{asset('assets/img/carbon_delivery.svg')}}" alt="" class="main-sec-logo-inside-others" style="width: 80px">
            </div>
            <div class="main-sec-text mt-4 text-center">
                <h4 class="text-uppercase">Razumanja cena</h4>
                <p class="mt-2">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One</p>
            </div>
        </div>
-
-
-
-
     </div>
 </div>
-
 {{--    ### 3 section--}}
     <div class="container-md-fluid main-cont-3 bg-vs-dark pt-lg-3">
         <div class="text-white text-center mb-5 mt-lg-5">
@@ -109,6 +104,63 @@
             <a href="{{route('works')}}" class="btn btn-outline-warning mb-5 text-uppercase btn-vs-outline">Больше</a>
         </div>
     </div>
+<div class="container mt-5" id="main-4-sec-top">
+    <div class="text-center">
+        <h1>Как мы работаем</h1>
+    </div>
+    <div class="d-flex mt-5" id="main-4-sec-middle">
+        <div id="main-4-sec-top-content" class="d-flex mx-auto">
+                <div class="my-auto">
+                    <strong>1</strong>
+                </div>
+                <div class="my-auto mx-3">
+                    <h3>ваша заявка</h3>
+                    <p>Оставьте заявку или позвоните в наш офис</p>
+                </div>
+        </div>
+        <div id="main-4-sec-top-content" class="d-flex mx-auto">
+                <div class="my-auto">
+                    <strong>3</strong>
+                </div>
+                <div class="my-auto mx-3">
+                    <h3>ваша заявка</h3>
+                    <p>Оставьте заявку или позвоните в наш офис</p>
+                </div>
+        </div>
+        <div id="main-4-sec-top-content" class="d-flex mx-auto">
+                <div class="my-auto">
+                    <strong>5</strong>
+                </div>
+                <div class="my-auto mx-3">
+                    <h3>ваша заявка</h3>
+                    <p>Оставьте заявку или позвоните в наш офис</p>
+                </div>
+        </div>
+    </div>
+    <div id="lifeCycleImg" class="d-flex mx-auto">
+    </div>
+    <div class="d-flex">
+        <div id="main-4-sec-top-content" class="d-flex mx-auto">
+            <div class="my-auto">
+                <strong>2</strong>
+            </div>
+            <div class="my-auto mx-3">
+                <h3>ваша заявка</h3>
+                <p>Оставьте заявку или позвоните в наш офис</p>
+            </div>
+        </div>
+        <div id="main-4-sec-top-content" class="d-flex mx-auto">
+            <div class="my-auto">
+                <strong>4</strong>
+            </div>
+            <div class="my-auto mx-3">
+                <h3>ваша заявка</h3>
+                <p>Оставьте заявку или позвоните в наш офис</p>
+            </div>
+        </div>
+    </div>
+</div>
+
     {{--    ### 4 section--}}
     <div class="container-fluid main-cont-4 d-block mt-lg-5" >
         <div class="row">

@@ -300,12 +300,7 @@ a.current:hover::after {
     margin: 0 auto;
     /*margin: auto auto;*/
 }
-.main-sec-logo-inside {
-    height: 35%;
-    margin-top:65px;
-    vertical-align: middle;
 
-}
 #mobile-home-first h2{
     font-family: "Montserrat ExtraBold",sans-serif;
     letter-spacing: 0.16em;
@@ -330,7 +325,7 @@ a.current:hover::after {
     text-transform: uppercase;
     color: #F5C405!important;
 }
-.main-cont-3 ,a:hover {
+.main-cont-3 a:hover {
     font-family: "Montserrat SemiBold",sans-serif;
     font-style: normal;
     font-size: 18px;
@@ -362,8 +357,57 @@ a.current:hover::after {
     color: #E5E5E5;
 }
 
+#main-4-sec-top-content strong{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    text-transform: uppercase;
+    color: #8d8c8c;
+    text-shadow: 7px 7px 4px rgba(0, 0, 0, 0.20);
+}
+#main-4-sec-top-content {
+    width:350px;
+    justify-content: space-between;
+}
 
+#main-4-sec-top h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+#main-4-sec-top-content h3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+#main-4-sec-top-content {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
 
+    color: #828282;
+}
+#lifeCycleImg {
+height: 200px;
+    width: 100%;
+
+}
+#lifeCycleImg {
+    height: 250px;
+    background-image: url("../img/lifeCycleImg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1200px;
+}
+
+#main-4-sec-middle {
+}
 
 .slider-img {
     position: relative;
@@ -548,8 +592,8 @@ footer {
     color: #252636 !important;
     display: block;
     position: absolute;
-    max-width: 200px;
-    transition: all 0.4s ease-in-out;
+    /*max-width: 200px;*/
+    /*transition: all 0.4s ease-in-out;*/
     margin-bottom: 80px;
 }
 

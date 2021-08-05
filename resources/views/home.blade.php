@@ -73,7 +73,7 @@
 </div>
 {{--    ### 3 section--}}
     <div class="container-md-fluid main-cont-3 bg-vs-dark pt-lg-3">
-        <div class="text-white text-center mb-5 pt-5 mt-lg-5">
+        <div class="text-white text-center mb-5 pt-5 pt-lg-0 mt-lg-5">
             <h1>Наша гордость</h1>
             <p class="">More than 20 years of working with roof constructions</p>
         </div>

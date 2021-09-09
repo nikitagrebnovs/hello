@@ -25,12 +25,12 @@
     </div>
 </div>
 
-<div class="position-absolute mb-5" id="main-sec-figure">
+<div class="" id="main-sec-figure">
     <img src="{{ asset('assets/img/rectangle.svg') }}" alt="">
 </div>
-<div class="container second-banner mt-5" data-aos="fade-up">
+<div class="container second-banner" data-aos="fade-up">
     <div>
-        <div class="col-lg-4 mb-lg-5 mx-auto mt-20 text-center d-inline mt-5" id="mobile-home-first"><h2>Почему нас рекомендуют?</h2></div>
+        <div class="col mb-lg-5 mx-auto text-center d-inline mt-5" id="mobile-home-first"><h2>Почему нас рекомендуют?</h2></div>
     </div>
     <div class="row justify-content-between" id="main-sec">
        <div class="col text-center">
@@ -78,26 +78,26 @@
             <p class="">More than 20 years of working with roof constructions</p>
         </div>
         <div class="d-lg-flex mx-auto justify-content-around">
-            <div class=" mt-3 img-zoom d-flex justify-content-center">
+            <div class=" mt-3 img-zoom d-flex justify-content-center col-4">
                 <div class="text-white text-center" id="banner-text-content">
                     <h2 class="">Mārupe Residence</h2>
                     <p class="text-center col-6 mx-auto">Lorem Ipsum is simply <p>
                 </div>
-                <img src="{{asset('assets/img/home.jpg')}}" class="slider-img rounded-3 mx-auto d-block" alt="">
+                <img src="{{asset('assets/img/home.jpg')}}" class="slider-img rounded mx-auto d-block" alt="">
             </div>
             <div class="my-auto mt-3 img-zoom d-flex justify-content-center">
                 <div class="text-white text-center" id="banner-text-content">
                     <h2 class="">Zolitūde Residence</h2>
                     <p class="text-center col-6 mx-auto">Lorem Ipsum is simply <p>
                 </div>
-                <img src="{{asset('assets/img/slider-home-2.jpg')}}" class="slider-img rounded-3 mx-auto d-block" alt="">
+                <img src="{{asset('assets/img/slider-home-2.jpg')}}" class="slider-img rounded mx-auto d-block" alt="">
             </div>
             <div class="my-auto mt-3 img-zoom d-flex justify-content-center">
                 <div class="text-white text-center" id="banner-text-content">
                     <h2 class="">Purvciems Residence</h2>
                     <p class="text-center col-6 mx-auto">Lorem Ipsum is simply <p>
                 </div>
-                <img src="{{asset('assets/img/slider-home-3.jpg')}}" class="slider-img rounded-3 mx-auto d-block" alt="">
+                <img src="{{asset('assets/img/slider-home-3.jpg')}}" class="slider-img rounded mx-auto d-block" alt="">
             </div>
         </div>
         <div class="text-center mt-lg-5 mt-4">
@@ -161,73 +161,135 @@
     </div>
 </div>
 
-    {{--    ### 4 section--}}
-    <div class="container-fluid main-cont-4 d-block mt-lg-5" >
-        <div class="row">
-            <div class="text-center mt-2 mb-5 ">
-                <h2>Our experience</h2>
-                <p>More than 20 years of working with roof constructions</p>
-            </div>
-            <div class="col-lg-2 bg-white mx-auto text-center feedback-card" id="mobile-cards" data-aos="fade-up">
-                <img src="{{ asset('assets/img/men.png') }}" class="mt-5 col-6" alt="">
-                <h3 class="mt-2">Johny Borjomi</h3>
-                <p>Home owner</p>
-                <p class="mb-3" id="monseratt-cursive-text">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-            </div>
-            <div class="col-lg-2 bg-white mx-auto text-center feedback-card" id="mobile-cards" data-aos="fade-up">
-                <img src="{{ asset('assets/img/men.png') }}" class="mt-5 col-6" alt="">
-                <h3 class="mt-2">Johny Borjomi</h3>
-                <p>Home owner</p>
-                <p class="mb-3" id="monseratt-cursive-text">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-            </div>
-            <div class="col-lg-2 bg-white mx-auto text-center feedback-card" id="mobile-cards" data-aos="fade-up">
-                <img src="{{ asset('assets/img/men.png') }}" class="mt-5 col-6" alt="">
-                <h3 class="mt-2">Johny Borjomi</h3>
-                <p>Home owner</p>
-                <p class="mb-3" id="monseratt-cursive-text">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-            </div>
-        </div>
-    </div>
+{{--    --}}{{--    ### 4 section--}}
+{{--    <div class="container-fluid main-cont-4 d-block mt-lg-5" >--}}
+{{--        <div class="row">--}}
+{{--            <div class="text-center mt-2 mb-5 ">--}}
+{{--                <h2>Our experience</h2>--}}
+{{--                <p>More than 20 years of working with roof constructions</p>--}}
+{{--            </div>--}}
+{{--            <div class="col-lg-2 bg-white mx-auto text-center feedback-card" id="mobile-cards" data-aos="fade-up">--}}
+{{--                <img src="{{ asset('assets/img/men.png') }}" class="mt-5 col-6" alt="">--}}
+{{--                <h3 class="mt-2">Johny Borjomi</h3>--}}
+{{--                <p>Home owner</p>--}}
+{{--                <p class="mb-3" id="monseratt-cursive-text">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>--}}
+{{--            </div>--}}
+{{--            <div class="col-lg-2 bg-white mx-auto text-center feedback-card" id="mobile-cards" data-aos="fade-up">--}}
+{{--                <img src="{{ asset('assets/img/men.png') }}" class="mt-5 col-6" alt="">--}}
+{{--                <h3 class="mt-2">Johny Borjomi</h3>--}}
+{{--                <p>Home owner</p>--}}
+{{--                <p class="mb-3" id="monseratt-cursive-text">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>--}}
+{{--            </div>--}}
+{{--            <div class="col-lg-2 bg-white mx-auto text-center feedback-card" id="mobile-cards" data-aos="fade-up">--}}
+{{--                <img src="{{ asset('assets/img/men.png') }}" class="mt-5 col-6" alt="">--}}
+{{--                <h3 class="mt-2">Johny Borjomi</h3>--}}
+{{--                <p>Home owner</p>--}}
+{{--                <p class="mb-3" id="monseratt-cursive-text">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
 
 {{--    ### 5 section--}}
-    <div class="text-center text-white pt-5" id="yellow-bar">
+    <div class="text-center text-white pt-5 bg-secondary mt-5" id="yellow-bar">
             <h2 class="mt-3">Our experience</h2>
             <p>More than 20 years of working with roof constructions</p>
         <button class="btn btn-vs-w btn-grey" type="submit"><a href="{{route('about-us')}}" class="d-block">Больше</a></button>
     </div>
 
 {{--    ###5 section?--}}
-<div class="container-lg-fluid bg-gradient-vs">
-<div class="container-fluid row">
-    <div class="col-lg-3 col" id="send-logo" data-aos="fade-left">
-        <img src="{{asset('assets/img/send2.png')}}" data-aos="fade-right" alt="" id="conatcs-img">
-    </div>
-    <div class="col" id="contact-form" >
-            <h2 class="text-center mb-4" data-aos="fade-left ">Есть вопросы?</h2>
-        <div class="card-body mt-1 col-lg-4 col mx-auto">
-            <form class="text-center" style="color: #757575;" action="#">
+<div class="container d-flex justify-content-center mb-5">
+    <div class="row col-8">
+        <div class="">
+            <div class="well well-sm">
+                <form class="form-horizontal mt-5" action="" method="post">
+                    <fieldset>
+                        <legend class="text-center">Contact us</legend>
 
-                <div class="md-form row" data-aos="fade-left" style="transition: 1.5s">
-                    <input type="text" id="materialContactFormName" class="shadow home-form col mb-3" placeholder="Имя" required>
-                    <label for="materialContactFormName"></label>
-                </div>
+                        <!-- Name input-->
+                        <div class="form-group">
+                            <label class="col-md-3 control-label" for="name">Name</label>
+                            <div class="col-md-9">
+                                <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
+                            </div>
+                        </div>
 
-                <div class="md-form row" data-aos="fade-left" style="transition: 2s">
-                    <input type="email" id="materialContactFormEmail" class="home-form col shadow" placeholder="Email" required>
-                    <label for="materialContactFormEmail"></label>
-                </div>
-                <div class="md-form row mb-4" data-aos="fade-left" style="transition: 3s">
-                    <textarea id="materialContactFormMessage" class="home-form home-form-text col md-textarea shadow mt-3" rows="3" placeholder="Вопрос.." required></textarea>
-                    <label for="materialContactFormMessage"></label>
-                </div>
+                        <!-- Email input-->
+                        <div class="form-group">
+                            <label class="col-md-3 control-label" for="email">Your E-mail</label>
+                            <div class="col-md-9">
+                                <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
+                            </div>
+                        </div>
 
-                <button class="btn btn-send btn-yellow mt-4" type="submit" data-aos="fade-left">Отправить</button>
-            </form>
+                        <!-- Message body -->
+                        <div class="form-group">
+                            <label class="col-md-3 control-label" for="message">Your message</label>
+                            <div class="col-md-9">
+                                <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+                            </div>
+                        </div>
+
+                        <!-- Form actions -->
+                        <div class="form-group mt-3">
+                            <div class="col-md-12 text-right">
+                                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
         </div>
-        </div>
-
     </div>
-
 </div>
-{{--    </div>--}}
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="title text-center">Contact Us</h3>
+                <div class="titleHR"><span></span></div>
+
+                <form role="form" name="ajax-form" id="ajax-form" action="php/contact.php" method="post" class="form-main">
+                    <div class="col-xs-12">
+                        <div class="row">
+                            <div class="form-group col-xs-6">
+                                <label for="name2">Name</label>
+                                <input class="form-control" id="name2" name="name" onblur="if(this.value == '') this.value='Name'" onfocus="if(this.value == 'Name') this.value=''" type="text" value="Name">
+                                <div class="error" id="err-name" style="display: none;">Please enter name</div>
+                            </div>
+                            <div class="form-group col-xs-6">
+                                <label for="email2">Email</label>
+                                <input class="form-control" id="email2" name="email" type="text" onfocus="if(this.value == 'E-mail') this.value='';" onblur="if(this.value == '') this.value='E-mail';" value="E-mail">
+                                <div class="error" id="err-emailvld" style="display: none;">E-mail is not a valid format</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-xs-12">
+                                <label for="message2">Message</label>
+                                <textarea class="form-control" id="message2" name="message" onblur="if(this.value == '') this.value='Message'" onfocus="if(this.value == 'Message') this.value=''">Message</textarea>
+                                <div class="error" id="err-message" style="display: none;">Please enter message</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2">
+                                <p class="text-center con_sub_text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, At accusam aliquyam diam diam dolore dolores duo eirmod eos erat, et nonumy sed tempor et et invidunt justo labore Stet clita ea et gubergren.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 text-center">
+                                <div id="ajaxsuccess">E-mail was successfully sent.</div>
+                                <div class="error" id="err-form" style="display: none;">There was a problem validating the form please check!</div>
+                                <div class="error" id="err-timedout">The connection to the server timed out!</div>
+                                <div class="error" id="err-state"></div>
+                                <button type="submit" class="btn btn-custom" id="send">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div> <!-- end col-md-12 -->
+        </div> <!-- end row -->
+    </div> <!-- container -->
+</section>
+
+
+
 @endsection
